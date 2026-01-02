@@ -6,94 +6,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Ενεργά κουπόνια και προσφορές για την Ελβετία. Tech, μόδα και online deals.">
 
-  :root {
-  --primary: #333;       /* κύριο χρώμα (τίτλοι, header text) */
-  --accent: #0d6efd;     /* μικρές πινελιές / κουμπιά */
-  --bg: #ffffff;          /* background σελίδας */
-  --card-bg: #f8f9fa;     /* background κάρτας κουπονιού */
-  --tag-bg: #e9ecef;      /* tag background */
-  --tag-color: #495057;   /* tag text color */
-}
+  <style>
+    :root {
+      --primary: #333;       /* κύριο χρώμα κειμένου */
+      --accent: #0d6efd;     /* κουμπιά */
+      --bg: #ffffff;         /* background σελίδας */
+      --card-bg: #f8f9fa;    /* background κάρτας */
+      --tag-bg: #e9ecef;     /* tag background */
+      --tag-color: #495057;  /* tag text color */
+    }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: var(--bg);
-  color: var(--primary);
-}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+    }
 
-header {
-  background: var(--bg);
-  color: var(--primary);
-  padding: 25px;
-  text-align: center;
-  border-bottom: 1px solid #dee2e6;
-}
+    header {
+      background: var(--bg);
+      color: var(--primary);
+      padding: 25px;
+      text-align: center;
+      border-bottom: 1px solid #dee2e6;
+    }
 
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 20px;
-}
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
 
-.card {
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  display: flex;
-  flex-direction: column;
-}
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+    }
 
-.tag {
-  background: var(--tag-bg);
-  color: var(--tag-color);
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  display: inline-block;
-  margin-bottom: 10px;
-}
+    .tag {
+      background: var(--tag-bg);
+      color: var(--tag-color);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
 
-.card h2 {
-  margin: 0 0 10px;
-  font-size: 20px;
-}
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
 
-.card p {
-  flex: 1;
-  font-size: 14px;
-}
+    .card p {
+      flex: 1;
+      font-size: 14px;
+    }
 
-.btn {
-  background: var(--accent);
-  color: white;
-  text-align: center;
-  padding: 12px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
+    .btn {
+      background: var(--accent);
+      color: white;
+      text-align: center;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-.btn:hover {
-  background: #0b5ed7; /* λίγο πιο σκούρο για hover */
-}
+    .btn:hover {
+      background: #0b5ed7;
+    }
 
-footer {
-  text-align: center;
-  font-size: 13px;
-  color: #6c757d;
-  padding: 20px;
-  border-top: 1px solid #dee2e6;
-}
-
-  
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #6c757d;
+      padding: 20px;
+      border-top: 1px solid #dee2e6;
+    }
+  </style>
 </head>
 
 <body>
@@ -121,6 +121,15 @@ footer {
       <p>Νέα συλλογή με δωρεάν επιστροφές στην Ελβετία.</p>
       <a class="btn" href="ΒΑΛΕ_ΕΔΩ_TO_AFFILIATE_LINK" target="_blank">
         Δες το deal
+      </a>
+    </div>
+
+    <div class="card">
+      <span class="tag">TRAVEL</span>
+      <h2>−15% σε Ξενοδοχεία</h2>
+      <p>Κράτηση σε επιλεγμένα ξενοδοχεία στην Ελβετία με έκπτωση.</p>
+      <a class="btn" href="ΒΑΛΕ_ΕΔΩ_TO_AFFILIATE_LINK" target="_blank">
+        Κλείσε τώρα
       </a>
     </div>
 
